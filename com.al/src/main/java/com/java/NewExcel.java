@@ -15,7 +15,7 @@ public class NewExcel {
 
 	public static void main(String[] args) throws IOException {
 		
-		
+		//Data
 		Workbook wb = new XSSFWorkbook();
 		Sheet sheet1 = wb.createSheet("Index");
 		 
