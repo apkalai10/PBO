@@ -5,6 +5,16 @@
   <version>AL2301</version>
   <name>Treasury Management System</name>
   <description>Treasury management is the process of managing an organization's liquidity, money market instruments, banking, concentration and disbursement activities.</description>
+
+  <repositories>
+        <repository>
+            <id>AsposeJavaAPI</id>
+            <name>Aspose Java API</name>
+            <url>https://releases.aspose.com/java/repo/</url>
+        </repository>
+    </repositories>
+
+
 <dependencies>
 	
 
@@ -85,6 +95,13 @@
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-lang3</artifactId>
     <version>3.14.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.aspose/aspose-cells -->
+<dependency>
+    <groupId>com.aspose</groupId>
+    <artifactId>aspose-cells</artifactId>
+    <version>24.1</version>
 </dependency>
 
 
